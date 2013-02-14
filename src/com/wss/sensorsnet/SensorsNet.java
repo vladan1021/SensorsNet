@@ -9,20 +9,7 @@ import android.widget.TabHost.TabSpec;
 
 
 public class SensorsNet extends TabActivity {
-/** Called when the activity is first created. */
-	
-	private static final String TAG = "SensorGraph";
-	
-	// change this to your Bluetooth device address 
-	private static final String DEVICE_ADDRESS =  "00:11:12:31:06:54"; //Bluetooth Module MAC Address
-	
-	private ArduinoReceiver arduinoReceiver = new ArduinoReceiver();
-	
-	//declare layout elements
-	
-	private ToggleButton on_off_monitoring;
-	private TextView text_view1;
-	
+
 @Override
 public void onCreate(Bundle savedInstanceState) {
 super.onCreate(savedInstanceState);
